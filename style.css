@@ -1,0 +1,48 @@
+#modal_window {
+	width: 300px; 
+	height: 300px; 
+	border-radius:8px;
+	border: 3px #000 solid;
+	background: #58E1DC;
+	position: fixed;  
+	left: 565px; 
+	display: none; 
+	opacity: 0; 
+	z-index: 5; 
+	padding: 20px 10px;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+#cancel {
+	position: absolute;
+	top: 267px;
+	left: 52px;
+	cursor: pointer;
+	display: block;
+	border-radius: 6px;
+	background: #fff;
+	padding: 5px 10px;
+}
+#ok {
+	position: absolute;
+	top: 267px;
+	left: 209px;
+	cursor: pointer;
+	display: block;
+	border-radius: 6px;
+	background: #fff;
+	padding: 5px 23px;
+}
+#overlay {
+	z-index: 3;
+	position: fixed; 
+	background-color: #000; 
+	opacity: 0.8; 
+	width: 100%; 
+	height: 100%; 
+	top: 0; 
+	left: 0;
+	cursor: pointer;
+	display: none; 
+}
